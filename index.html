@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulse Basketball Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home">PULSE<span>BC</span></a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">О клубе</a></li>
+          <li><a href="#training">Тренировки</a></li>
+          <li><a href="#team">Команда</a></li>
+          <li><a href="#contact">Запись</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="tag">Баскетбольный клуб • Москва</span>
+          <h1>Играй быстрее.<br><em>Становись сильнее.</em></h1>
+          <p>Тренировки для игроков любого уровня. Развиваем технику, физическую форму и игровое мышление.</p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">Записаться</a>
+            <a class="button button-light" href="#training">Программа</a>
+          </div>
+        </div>
+        <div class="ball" aria-label="Баскетбольный мяч">🏀</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span>01 / О клубе</span>
+          <h2>Тренируемся с целью</h2>
+        </div>
+        <div class="about-grid">
+          <article class="card"><strong>6+</strong><h3>Тренеров</h3><p>Опытные наставники помогают работать над техникой и понимать игру.</p></article>
+          <article class="card"><strong>120</strong><h3>Игроков</h3><p>Общее комьюнити начинающих и опытных баскетболистов.</p></article>
+          <article class="card"><strong>4</strong><h3>Тренировки</h3><p>До четырёх занятий в неделю с разной интенсивностью.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="training">
+      <div class="container">
+        <div class="section-heading"><span>02 / Программа</span><h2>Что мы прокачиваем</h2></div>
+        <div class="training-grid">
+          <article><span>01</span><h3>Дриблинг</h3><p>Контроль мяча, смена направления и работа обеими руками.</p></article>
+          <article><span>02</span><h3>Бросок</h3><p>Механика, стабильность, броски после ведения и передач.</p></article>
+          <article><span>03</span><h3>Физика</h3><p>Скорость, координация, выносливость и взрывная сила.</p></article>
+          <article><span>04</span><h3>Тактика</h3><p>Чтение площадки, движение без мяча и командные решения.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-heading"><span>03 / Команда</span><h2>Тренерский состав</h2></div>
+        <div class="team-grid">
+          <article class="coach"><div class="avatar">АК</div><h3>Алексей Крылов</h3><p>Главный тренер</p></article>
+          <article class="coach"><div class="avatar">МС</div><h3>Максим Соколов</h3><p>Тренер по технике</p></article>
+          <article class="coach"><div class="avatar">ИВ</div><h3>Илья Волков</h3><p>Тренер ОФП</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div><span class="tag">Первая тренировка</span><h2>Готов выйти<br>на площадку?</h2><p>Оставь контакты — подберём подходящую группу и время тренировки.</p></div>
+        <form class="form">
+          <label>Имя<input type="text" name="name" placeholder="Кирилл" required minlength="2"></label>
+          <label>Телефон<input type="tel" name="phone" placeholder="+7 999 000-00-00" required></label>
+          <label>Уровень<select name="level" required><option value="">Выберите уровень</option><option>Начинающий</option><option>Любитель</option><option>Опытный</option></select></label>
+          <button type="submit">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><b>PULSE BC</b><span>© 2026 Баскетбольный клуб</span></div></footer>
+  <a class="top" href="#home" aria-label="Наверх">↑</a>
+</body>
+</html>
